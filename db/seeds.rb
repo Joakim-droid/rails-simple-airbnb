@@ -27,3 +27,10 @@ Flat.create!(
   price_per_night: 50,
   number_of_guests: 1
 )
+Flat.create!(
+  name: 'bunker',
+  address: 'underground',
+  description: 'keeps you safe at all times, even nuclear war',
+  price_per_night: 1000,
+  number_of_guests: 5
+)
